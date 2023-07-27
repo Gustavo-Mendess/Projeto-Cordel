@@ -68,8 +68,8 @@ section>p{
 }
 
 section#img01{
-    background-image: url(img/background001.png); background-repeat: no-repeat;
-    background-position: right  center;
+    background-image: url(img/background001.jpg); background-repeat: no-repeat;
+    
     background-size: cover;
     background-attachment: fixed;
     
@@ -106,8 +106,9 @@ footer{
     background-color: black;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 3px;
+    padding: 5px;
     text-align: center;
+    margin: 0%;
     
 }
 footer a{
