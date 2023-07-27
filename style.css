@@ -69,7 +69,7 @@ section>p{
 
 section#img01{
     background-image: url(img/background001.jpg); background-repeat: no-repeat;
-    
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
     
@@ -103,8 +103,8 @@ section#img02{
 /* Footer */
 footer{
     font-size: 2vw;
-    background-color: black;
-    color: white;
+   background-color: black;
+    color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
     text-align: center;
@@ -113,13 +113,14 @@ footer{
 }
 footer a{
     
-    
-    color: white;
+    background-color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     
 }
+
 
 footer a:hover{
     
