@@ -68,7 +68,7 @@ section>p{
 }
 
 section#img01{
-    background-image: url(img/background001.jpg); background-repeat: no-repeat;
+    background-image: url(img/background001.png); background-repeat: no-repeat;
     background-position: right  center;
     background-size: cover;
     background-attachment: fixed;
@@ -102,12 +102,13 @@ section#img02{
 
 /* Footer */
 footer{
+    font-size: 2vw;
     background-color: black;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 2px;
     text-align: center;
-    margin-top: 15px;
+    
 }
 footer a{
     
@@ -116,15 +117,14 @@ footer a{
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    display: inline-block;
+    
 }
 
 footer a:hover{
-    border-radius: 5px;
-    padding: 5px;
+    
     text-decoration: underline;
     color: rgb(255, 255, 255);
-    transform: scale(1.05);
+  
 }
 
 /* Fim Footer */
